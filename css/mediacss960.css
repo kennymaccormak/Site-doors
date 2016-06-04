@@ -1,0 +1,51 @@
+@media screen and (max-width: 960px){
+    .wrap{
+        width: 95%;
+    }
+
+    header{
+        background-size: 100% 500px;
+    }
+
+    header .pattern_BG{
+        height: 500px;
+    }
+
+    header .triangle{
+        top: 500px;
+    }
+
+    .logo {
+        left: 40%;
+    }
+
+    .block_with_number{
+        min-width: 200px;
+    }
+
+    .door h3 a{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .door h3 a span{
+        letter-spacing: normal;
+    }
+
+    #about_cont{
+        width: calc(78.819% - 14px - 34px - 34px);
+    }
+
+    #content .menu a{
+        font-size: 13px;
+    }
+
+    #about_cont p{
+        font-size: 16px;
+    }
+
+    #blurb{
+        display: none;
+    }
+
+}

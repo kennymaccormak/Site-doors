@@ -1,0 +1,59 @@
+@media screen and (max-width: 660px){
+
+    header{
+        background-size: 100% 400px;
+    }
+
+    header .pattern_BG{
+        height: 400px;
+    }
+
+    header .triangle{
+        top: 400px;
+    }
+
+    #search{
+        width: 37px;
+    }
+
+    #search input[placeholder]{
+        display: none;
+    }
+
+    #search #submit{
+        position: static;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #block_with_icon_basket{
+        display: none;
+    }
+
+    .logo {
+        left: 36%;
+    }
+
+    header .block_with_number{
+        display: none;
+    }
+
+    #doors{
+        margin-top: 160px;
+    }
+
+    #content .menu{
+        display: none;
+    }
+
+    #about_cont{
+        display: block;
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #footer_menu li{
+        margin-left: 10px;
+    }
+}

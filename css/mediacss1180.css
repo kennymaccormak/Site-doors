@@ -1,0 +1,24 @@
+@media screen and (max-width: 1180px){
+    .wrap{
+        width: 90%;
+    }
+
+    #logo {
+        left: 41%;
+    }
+
+    .block_with_number h3{
+        font-size: 16px;
+    }
+    .block_with_number h3 span{
+        font-size: 21px;
+    }
+
+    #blurb .block_blurb_with_number h3{
+        font-size: 13px;
+    }
+
+    #blurb .block_blurb_with_number h3 span{
+        font-size: 15px;
+    }
+}

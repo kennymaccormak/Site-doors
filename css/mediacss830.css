@@ -1,0 +1,64 @@
+@media screen and (max-width: 830px){
+    .wrap{
+        width: 100%;
+    }
+
+    header{
+        background-size: 100% 450px;
+    }
+
+    header .pattern_BG{
+        height: 450px;
+    }
+
+    header .triangle{
+        top: 450px;
+    }
+
+    #menu{
+        margin-left: 1.5885%;
+    }
+
+    #search{
+        margin-right: 1.5885%;
+    }
+
+    .logo {
+        left: 39.2%;
+    }
+
+    .block_with_number{
+        min-width: 200px;
+    }
+
+    .door{
+        min-width: 100px;
+    }
+
+    .door h3 a{
+        font-size: 1rem;
+    }
+
+    .door h3 a span{
+        font-size: 3rem;
+        letter-spacing: normal;
+    }
+
+    #content .menu{
+        margin-left: 1.5885%;
+        margin-right: 1.5885%;
+    }
+
+    #about_cont{
+        width: calc(77.2305% - 14px - 34px - 34px);
+        margin-right: 1.5885%;
+    }
+
+    address{
+        margin-left: 1.5885%;
+    }
+
+    #footer_menu{
+        margin-right: 1.5885%;
+    }
+}

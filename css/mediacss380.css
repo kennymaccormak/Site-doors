@@ -1,0 +1,17 @@
+@media screen and (max-width: 380px){
+
+    html{
+        min-width: 340px;
+    }
+
+    #nav{
+        min-width: 340px;
+    }
+
+    #basket{
+        width: 32px;
+    }
+    #basket h3{
+        text-indent: -1000px;
+    }
+}
