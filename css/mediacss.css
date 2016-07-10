@@ -1,0 +1,229 @@
+@media screen and (min-width: 1400px){
+    .wrap{
+        width: 60%;
+    }
+
+    .logo {
+        left: 41.5%;
+    }
+}
+
+@media screen and (max-width: 1180px){
+    .wrap{
+        width: 90%;
+    }
+
+    #logo {
+        left: 41%;
+    }
+
+    .block_with_number h3{
+        font-size: 16px;
+    }
+    .block_with_number h3 span{
+        font-size: 21px;
+    }
+
+    #blurb .block_blurb_with_number h3{
+        font-size: 13px;
+    }
+
+    #blurb .block_blurb_with_number h3 span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .wrap{
+        width: 95%;
+    }
+
+    header{
+        background-size: 100% 500px;
+    }
+
+    header .pattern_BG{
+        height: 500px;
+    }
+
+    header .triangle{
+        top: 500px;
+    }
+
+    .logo {
+        left: 40%;
+    }
+
+    .block_with_number{
+        min-width: 200px;
+    }
+
+    .door h3 a{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .door h3 a span{
+        letter-spacing: normal;
+    }
+
+    #about_cont{
+        width: calc(78.819% - 14px - 34px - 34px);
+    }
+
+    #content .menu a{
+        font-size: 13px;
+    }
+
+    #about_cont p{
+        font-size: 16px;
+    }
+
+    #blurb{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 830px){
+    .wrap{
+        width: 100%;
+    }
+
+    header{
+        background-size: 100% 450px;
+    }
+
+    header .pattern_BG{
+        height: 450px;
+    }
+
+    header .triangle{
+        top: 450px;
+    }
+
+    #menu{
+        margin-left: 1.5885%;
+    }
+
+    #search{
+        margin-right: 1.5885%;
+    }
+
+    .logo {
+        left: 39.2%;
+    }
+
+    .block_with_number{
+        min-width: 200px;
+    }
+
+    .door{
+        min-width: 100px;
+    }
+
+    .door h3 a{
+        font-size: 1rem;
+    }
+
+    .door h3 a span{
+        font-size: 3rem;
+        letter-spacing: normal;
+    }
+
+    #content .menu{
+        margin-left: 1.5885%;
+        margin-right: 1.5885%;
+    }
+
+    #about_cont{
+        width: calc(77.2305% - 14px - 34px - 34px);
+        margin-right: 1.5885%;
+    }
+
+    address{
+        margin-left: 1.5885%;
+    }
+
+    #footer_menu{
+        margin-right: 1.5885%;
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    header{
+        background-size: 100% 400px;
+    }
+
+    header .pattern_BG{
+        height: 400px;
+    }
+
+    header .triangle{
+        top: 400px;
+    }
+
+    #search{
+        width: 37px;
+    }
+
+    #search input[placeholder]{
+        display: none;
+    }
+
+    #search #submit{
+        position: static;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #block_with_icon_basket{
+        display: none;
+    }
+
+    .logo {
+        left: 36%;
+    }
+
+    header .block_with_number{
+        display: none;
+    }
+
+    #doors{
+        margin-top: 160px;
+    }
+
+    #content .menu{
+        display: none;
+    }
+
+    #about_cont{
+        display: block;
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #footer_menu li{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    html{
+        min-width: 320px;
+    }
+
+    #nav{
+        min-width: 320px;
+    }
+
+    #basket{
+        width: 32px;
+    }
+    #basket h3{
+        text-indent: -1000px;
+    }
+}
