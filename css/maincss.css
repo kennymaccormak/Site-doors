@@ -1,4 +1,4 @@
-/*Шрифти підключення*/
+/*include fonts*/
 @font-face {
     font-family: 'Helvetica Neue Italic';
     src: url(../font/Helvetica%20Neue/HelveticaNeueCyr-Italic.otf);
@@ -19,10 +19,9 @@
     font-family: 'Bebas Neue Bold';
     src: url(../font/Bebas_Neue/BebasNeue%20Bold.otf);
 }
-/*Кінець блоку з шрифтвми*/
 
 html{
-    background-image: url("../img/bg_main1.png");  /*основний фон*/
+    background-image: url("../img/bg_main1.png");
     background-repeat: repeat;
     background-attachment: fixed;
     height: 100%;
@@ -61,7 +60,7 @@ h3{
     margin: 0 auto;
 }
 
-#content_and_footer_wrap{                  /* нижній фон*/
+#content_and_footer_wrap{                /* bottom background*/
     position: relative;
     background-image: radial-gradient(at bottom, rgba(177,235,118,0.95) 0%, rgba(75,121,31,0.95) 50%);
     background-repeat: no-repeat;
@@ -70,8 +69,7 @@ h3{
     padding-bottom: 50px;
 }
 
-#content_and_footer_wrap .pattern_BG{       /* накладання паттерна під фон*/
-    position: absolute;
+#content_and_footer_wrap .pattern_BG{           position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -81,7 +79,7 @@ h3{
     background-repeat: repeat;
 }
 
-#content_and_footer_wrap .triangle{         /* фоновий трикутник*/
+#content_and_footer_wrap .triangle{
     position:absolute;
     bottom: 310px;
     left: 0;
@@ -92,7 +90,7 @@ h3{
     background-position: left top;
 }
 
-#menu_pop{                  /* стильі блоку випливаючлшл меню*/
+#menu_pop{                  /* pop menu*/
     position: absolute;
     top: -200px;
     width: 177px;
@@ -119,7 +117,7 @@ h3{
 }
 
 
-#nav{                           /* стильі блоку навігації*/
+#nav{                           /* nav block*/
     position: fixed;
     width: 100%;
     z-index: 125;
@@ -136,7 +134,7 @@ h3{
     overflow: hidden;
 }
 
-#menu{                          /* стильі кнопки меню*/
+#menu{                          /* menu button*/
     display: inline-block;
     height: 37px;
 }
@@ -154,39 +152,18 @@ h3{
     padding-left: 60px;
     font-size: 18px;
     line-height: 30px;
-    -webkit-transition: top 0.6s 0.6s, text-indent 0.6s;
-    -moz-transition: top 0.6s 0.6s, text-indent 0.6s;
-    -ms-transition: top 0.6s 0.6s, text-indent 0.6s;
-    -o-transition: top 0.6s 0.6s, text-indent 0.6s;
-    transition: top 0.6s 0.6s, text-indent 0.6s;
-}
-
-#menu #first_a2{
-    position: absolute;
-    top: -45px;
-    left: 0;
-    display: inline-block;
-    background-image: url("../img/nav/small_menu_icon.png");
-    background-repeat: no-repeat;
-    background-position: 3px 3px;
-    height: 37px;
-    width: 35px;
-    padding-left: 0;
-    font-size: 18px;
-    line-height: 30px;
-    text-indent: -1000px;
-    -webkit-transition: all 0.6s 0.6s;
-    -moz-transition: all 0.6s 0.6s;
-    -ms-transition: all 0.6s 0.6s;
-    -o-transition: all 0.6s 0.6s;
-    transition: all 0.6s 0.6s;
+    -webkit-transition: top 0.3s 0.3s, text-indent 0.3s, background 0.3s;
+    -moz-transition: top 0.3s 0.3s, text-indent 0.3s, background 0.3s;
+    -ms-transition: top 0.3s 0.3s, text-indent 0.3s, background 0.3s;
+    -o-transition: top 0.3s 0.3s, text-indent 0.3s, background 0.3s;
+    transition: top 0.3s 0.3s, text-indent 0.3s, background 0.3s;
 }
 
 #menu_pop a:hover{
     text-decoration: underline;
 }
 
-#search {           /* стильі форми пошуку*/
+#search {
     position: relative;
     float: right;
     width: 33%;
@@ -205,16 +182,16 @@ h3{
     color: #ff3f3e;
     outline: none;
 }
-    ::-webkit-input-placeholder {color:#ff3f3e;padding-left: 2px;}        /* стильі placeholder*/
+    ::-webkit-input-placeholder {color:#ff3f3e;padding-left: 2px;}        /*  placeholder*/
     ::-moz-placeholder          {color:#ff3f3e;padding-left: 2px;}
     :-moz-placeholder           {color:#ff3f3e;padding-left: 2px;}
     :-ms-input-placeholder      {color:#ff3f3e;padding-left: 2px;}
 
-#search #submit {           /* ховаєм кнопку пошуку*/
+#search #submit {
     display: none;
 }
 
-.submit_label{              /* стилі label кнлпки пошуку*/
+.submit_label{
     position: absolute;
     top: 0;
     right: 0;
@@ -237,11 +214,11 @@ h3{
     transform: scaleX(-1);
 }
 
-input[type="search"] {    /* надає можливість стилізувати інпути*/
+input[type="search"] {    /* possible to style menu*/
     -webkit-appearance: none;
 }
 
-#change_language{           /*стилі блоків переключення мови*/
+#change_language{           /*change language block*/
     float: right;
     margin-right: 30px;
 }
@@ -277,7 +254,7 @@ input[type="search"] {    /* надає можливість стилізувати інпути*/
     margin-left: 8px;
 }
 
-#basket{                    /*стилі блоку крзини*/
+#basket{                    /*busket block*/
     display: inline-block;
     float: right;
     width: 140px;
@@ -300,14 +277,14 @@ input[type="search"] {    /* надає можливість стилізувати інпути*/
 
 /*Header*/
 
-header{             /*фонн header*/
-    position: relative;  
+header{             /*header background*/
+    position: relative;
     background-image: radial-gradient(at top, rgba(177,235,118,0.95) 0%, rgba(75,121,31,0.95) 50%);
     background-repeat: no-repeat;
     background-size: 100% 565px;
 }
 
-header .pattern_BG{         /*накладаєм паттерн під фон*/
+header .pattern_BG{
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -316,7 +293,7 @@ header .pattern_BG{         /*накладаєм паттерн під фон*/
     background-repeat: repeat;
 }
 
-header .triangle{               /*елемент фону - трикутник*/
+header .triangle{
     position:absolute;
     top: 564px;
     left: 0;
@@ -332,7 +309,7 @@ header .wrap{
     padding-top: 80px;
 }
 
-#block_with_icon_basket{            /*стилі блоку з великою корзиною*/
+#block_with_icon_basket{        /*big busket*/
     display: inline-block;
     height: 144px;
     width: 21.18%;
@@ -365,7 +342,7 @@ header .wrap{
     text-decoration: none;
 }
 
-.social_icon{           /*іконки соцмереж*/
+.social_icon{           /*icons*/
     overflow: hidden;
     margin-bottom: 6px;
 }
@@ -420,7 +397,7 @@ header .wrap{
     text-transform: none;
 }
 
-.logo{                      /*стилі логотипа*/
+.logo{                      /*logo*/
     position: absolute;
     left: 40.6%;
     top: 80px;
@@ -441,7 +418,7 @@ header .wrap{
     text-shadow: 0.5px 0.866px 1px rgba(255, 255, 255, 0.4);
 }
 
-.block_with_number{             /*стилі блоку з замірщиком*/
+.block_with_number{             /*zamirnuk*/
     width: 21.18%;
     max-width: 200px;
     height: 144px;
@@ -504,6 +481,7 @@ header .wrap{
 
 .door img{
     width: 100%;
+    margin-bottom: 20px;
 }
 .left_shadow{
     box-shadow: -3px 2px 6px 3px rgba(0,0,0,0.5);
@@ -876,23 +854,3 @@ address{
     line-height: 44px;
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
