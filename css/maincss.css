@@ -91,10 +91,10 @@ h3{
 }
 
 #menu_pop{                  /* pop menu*/
-    position: absolute;
+    position: fixed;
     top: -200px;
     width: 177px;
-    z-index: 50;
+    z-index: 120;
     padding-top: 17px;
     padding-left: 23px;
     background-image: url("../img/nav/bg_pop_menu.png");
